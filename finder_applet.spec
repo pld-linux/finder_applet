@@ -1,6 +1,6 @@
 Summary:	A Battery  monitor for linuxppc.
 Name:		finder_applet
-Version:	0.4
+Version:	0.4.1
 Release:	0
 License:	GPL
 Group:		X11/Applications
