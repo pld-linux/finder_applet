@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://students.washington.edu/mpalczew/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	6605eaf848ac6fb42ac3cd67657694a7
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gnome-core-devel
 BuildRequires:	gnome-libs-devel
