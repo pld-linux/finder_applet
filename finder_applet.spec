@@ -38,14 +38,12 @@ install src/finder_applet $RPM_BUILD_ROOT%{_bindir}
 install support/finder_applet.desktop $RPM_BUILD_ROOT%{_datadir}/applets/Utility
 install support/finder_applet.gnorba $RPM_BUILD_ROOT%{_sysconfdir}/CORBA/servers
 
-gzip -9nf README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz TODO.gz
+%doc README TODO
 
 %attr(755,root,root) %{_bindir}/finder_applet
 %{_datadir}/applets/Utility/finder_applet.desktop
