@@ -25,7 +25,7 @@ To jest aplet menu GNOME podobny do Findera z MacOS.
 %setup -q
 %build
 ./configure --prefix=/usr --sysconfdir=%{_sysconfdir}
-%{__make} 
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
