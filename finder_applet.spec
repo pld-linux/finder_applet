@@ -7,6 +7,10 @@ Group:		X11/Applications
 Group(de):	X11/Applikationen
 Group(pl):	X11/Aplikacje
 Source0:	http://students.washington.edu/mpalczew/%{name}-%{version}.tar.gz
+BuildRequires:	gdk-pixbuf-devel
+BuildRequires:	gnome-core-devel
+BuildRequires:	gnome-libs-devel
+BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
