@@ -1,5 +1,5 @@
 Summary:	MacOS Finder like applet menu for GNOME
-Summary(pl):	Aplet menu GNOME podobny do Findera z MacOS
+Summary(pl.UTF-8):   Aplet menu GNOME podobny do Findera z MacOS
 Name:		finder_applet
 Version:	0.4.1
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a MacOS Finder like applet menu for GNOME.
 
-%description -l pl
+%description -l pl.UTF-8
 To jest aplet menu GNOME podobny do Findera z MacOS.
 
 %prep
